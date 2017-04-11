@@ -1,0 +1,87 @@
+*{
+	border:0;
+	margin:0; 
+	padding:0
+}
+
+html{ background: white url(http://www.ti-consulting.com/img/mantenimiento_informatico.jpg)}
+
+body{width:800px; heigth: 1070px; margin:auto;background-color: white; 
+	font-family: Franklin Gothic;}
+header {width: 800px; height: 160px; background-color: white }
+main {width: 800px; height: 680px; }
+footer {width: 800px; height: 140px; background-color: orange }
+
+#logoUnad {
+	width: 200px; 
+	height: 120px; 
+	float: left;
+	padding: 20px;
+}
+
+#titulo {
+	width: 380px; 
+	height: 115px; 
+	float: left;
+	text-indent: 20px ;
+	background-color: gray;	
+	margin:0;
+	padding-top: 45px;
+}
+
+#logoRedes {
+	width: 180px; 
+	height: 130px; 
+	float: left; 
+}
+
+#menu {
+	width: 190px;
+	height: 520px;
+	margin: 5px;
+	margin-bottom: 20px;
+	border: blue 4px solid;
+	background: #B3B3B3;
+	list-style-type: square;
+	padding-left: 40px;
+	padding-top: 140px;
+	padding-bottom: 2px;
+	float: left;
+}
+
+#intro {
+	width: 480px;
+	height: 500px;
+	margin: 100px 20px 20px 30px;
+	border: blue 4px solid;
+	background: #43C7F4;
+	text-indent: 2px;
+	margin-bottom: 80px;
+	float: left;
+	
+}
+
+#footer{
+	margin: 10px;
+	text-indent: 5px;
+	float: left;
+}
+
+.titulo {
+	margin: center-left;
+}
+
+.parrafo1 {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.parrafo2 {
+	margin-left: 15px;
+	margin-top: 15px;
+}
+
+.parrafo3 {
+	margin-left: 15px;
+	margin-top: 15px;
+}
