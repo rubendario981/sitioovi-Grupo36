@@ -4,35 +4,78 @@
 	padding:0
 }
 
-html{ background: white url(http://www.ti-consulting.com/img/mantenimiento_informatico.jpg)}
+html{ 
+	margin: 10px 0px 10px 0px;
+	background: white url(../img/fondo3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
 
-body{width:800px; heigth: 1070px; margin:auto;background-color: white; 
-	font-family: Franklin Gothic;}
-header {width: 800px; height: 160px; background-color: white }
-main {width: 800px; height: 680px; }
-footer {width: 800px; height: 140px; background-color: orange }
+body{
+	width:800px; 
+	heigth: auto; 
+	margin:auto;
+	font-family: Franklin Gothic;
+	}
+	
+header{
+	width: 800px; 
+	height: 160px; 
+	background-color: white;
+	border: blue 4px solid;
+	border-radius: 15px 15px 0px 0px;
+	}
+	
+main {
+	width: 800px; 
+	height: 680px;
+	border: blue 4px solid;
+	margin: 8px 0px 8px 0px;
+	float: left;
+	}
+
+aside {
+	width: auto; 
+	height: 520; 
+	float: left;
+	}
+
+footer{
+	width: 800px;
+	height: 150px;
+	margin: 0px;
+	float: left;
+	background-color: white;
+	border: blue 4px solid;
+	border-radius: 0px 0px 15px 15px;
+}
+
+section{
+	font-size: 20px;
+}
 
 #logoUnad {
-	width: 200px; 
+	width: 190px; 
 	height: 120px; 
 	float: left;
 	padding: 20px;
 }
 
 #titulo {
-	width: 380px; 
+	width: 390px; 
 	height: 115px; 
 	float: left;
-	text-indent: 20px ;
-	background-color: gray;	
-	margin:0;
+	text-align: left;
 	padding-top: 45px;
+	background-color: #005883;
+	font-size: 18px;
 }
 
 #logoRedes {
 	width: 180px; 
 	height: 130px; 
-	float: left; 
+	float: left;
+	border-radius: 40px;
 }
 
 #menu {
@@ -41,32 +84,129 @@ footer {width: 800px; height: 140px; background-color: orange }
 	margin: 5px;
 	margin-bottom: 20px;
 	border: blue 4px solid;
-	background: #B3B3B3;
-	list-style-type: square;
-	padding-left: 40px;
+	background: white;
+	padding-left: 20px;
+	padding-right: 15px;
 	padding-top: 140px;
 	padding-bottom: 2px;
 	float: left;
+	border-radius: 0px 0px 0px 15px;
+
 }
 
 #intro {
 	width: 480px;
-	height: 500px;
-	margin: 100px 20px 20px 30px;
+	height: auto;
+	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: #43C7F4;
-	text-indent: 2px;
+	background: white;
+	line-height: 25px;
 	margin-bottom: 80px;
+	float: left;
+	border-radius: 20px;
+	padding-top: 40px;
+}
+
+#contador{
+	width: 180px;
+	height: 140px;
+	text-align: center;
 	float: left;
 	
 }
 
-#footer{
-	margin: 10px;
-	text-indent: 5px;
+#piepagina{
+	width: 390px; 
+	height: 25px; 
+	text-align: left;
 	float: left;
+	margin-top: 50px;
+	text-indent: 20px;
+	
 }
 
+#lecturas{
+	width: 480px;
+	height: auto;
+	margin: 5px 20px 0px 30px;
+	border: blue 4px solid;
+	background: white;
+	line-height: 25px;
+	margin-bottom: 80px;
+	float: left;
+	border-radius: 20px;
+	padding-top: 40px;
+}
+
+#multimedia{
+	width: 480px;
+	height: auto;
+	margin: 5px 20px 0px 30px;
+	border: blue 4px solid;
+	background: white;
+	line-height: 25px;
+	margin-bottom: 80px;
+	float: left;
+	border-radius: 20px;
+	padding-top: 40px;
+}
+
+#actividades{
+	width: 480px;
+	height: auto;
+	margin: 5px 20px 0px 30px;
+	border: blue 4px solid;
+	background: white;
+	line-height: 25px;
+	margin-bottom: 80px;
+	float: left;
+	border-radius: 20px;
+	padding-top: 40px;
+}
+
+#autores{
+	width: 480px;
+	height: auto;
+	margin: 5px 20px 0px 30px;
+	border: blue 4px solid;
+	background: white;
+	line-height: 25px;
+	margin-bottom: 80px;
+	float: left;
+	border-radius: 20px;
+	padding-top: 40px;
+}
+h1{
+	text-align: center;
+}
+
+h2{
+	margin-left: 20px;
+}
+
+h3{
+	text-align: justify;
+	margin: 30px;
+	font-size: 15px;
+	font-family: angsana new;
+}
+
+h5{
+	margin-left: 20px;
+}
+
+li{
+	list-style-type: none;
+	padding: 8px 10px;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	
+}
+
+/*
 .titulo {
 	margin: center-left;
 }
@@ -84,4 +224,4 @@ footer {width: 800px; height: 140px; background-color: orange }
 .parrafo3 {
 	margin-left: 15px;
 	margin-top: 15px;
-}
+}*/
