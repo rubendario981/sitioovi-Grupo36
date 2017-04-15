@@ -9,6 +9,7 @@ html{
 	background: white url(../img/fondo3.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	padding-bottom: 15px;
 	}
 
 body{
@@ -32,12 +33,15 @@ main {
 	border: blue 4px solid;
 	margin: 8px 0px 8px 0px;
 	float: left;
+	background-color: transparent;
 	}
 
 aside {
 	width: auto; 
 	height: 520; 
 	float: left;
+	overflow: auto;
+	background-color: #FFFFFF;
 	}
 
 footer{
@@ -82,29 +86,26 @@ section{
 	width: 190px;
 	height: 520px;
 	margin: 5px;
-	margin-bottom: 20px;
 	border: blue 4px solid;
-	background: white;
-	padding-left: 20px;
-	padding-right: 15px;
+	padding-right: 20px;
 	padding-top: 140px;
-	padding-bottom: 2px;
 	float: left;
-	border-radius: 0px 0px 0px 15px;
-
+	border-radius: 20px;
+	list-style-type: none;
+	list-style-image: none;
 }
 
 #intro {
 	width: 480px;
-	height: auto;
+	height: 622px;
 	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: white;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
 	border-radius: 20px;
 	padding-top: 40px;
+	
 }
 
 #contador{
@@ -127,10 +128,9 @@ section{
 
 #lecturas{
 	width: 480px;
-	height: auto;
+	height: 622px;
 	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: white;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
@@ -140,10 +140,9 @@ section{
 
 #multimedia{
 	width: 480px;
-	height: auto;
+	height: 622px;
 	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: white;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
@@ -153,10 +152,9 @@ section{
 
 #actividades{
 	width: 480px;
-	height: auto;
+	height: 622px;
 	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: white;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
@@ -166,16 +164,30 @@ section{
 
 #autores{
 	width: 480px;
-	height: auto;
+	height: 622px;
 	margin: 5px 20px 0px 30px;
 	border: blue 4px solid;
-	background: white;
 	line-height: 25px;
 	margin-bottom: 80px;
 	float: left;
 	border-radius: 20px;
 	padding-top: 40px;
 }
+
+#lista2{
+	list-style-image: none;
+}
+
+#listanumerada{
+	/*list-style: decimal-leading-zero;*/
+	list-style-image: none;
+}
+
+#datosestudiante{
+	font-size: 14px;
+	line-height: 14px;
+}
+
 h1{
 	text-align: center;
 }
@@ -186,7 +198,7 @@ h2{
 
 h3{
 	text-align: justify;
-	margin: 30px;
+	margin: 10px 25px 10px 25px;
 	font-size: 15px;
 	font-family: angsana new;
 }
@@ -196,12 +208,14 @@ h5{
 }
 
 li{
-	list-style-type: none;
-	padding: 8px 10px;
+	padding: 4px 5px;
+	list-style-position: outside 20px;
+	margin-left: 45px;
+	list-style-image: url(../img/viñeta.png);
 }
 
 a{
-	text-decoration: none;
+	
 	color: black;
 	
 }
